@@ -1,0 +1,39 @@
+.center {
+  text-align: center; }
+.center img {
+  /*margin: 0;
+  padding: 0;*/
+  display: inline-block;
+  max-height: 300px; }
+
+.big {
+    font: 10em/1.1 sans-serif;
+    margin: 0;
+    padding: 0; }
+
+.medium {
+    font: 6em/1.1 sans-serif;
+    margin: 0;
+    padding: 0; }
+
+.bold {
+  font-weight: 800; }
+
+.gray {
+  color: #777; }
+
+.flip{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH"; }
+
+#about-me p {
+  font: 3.8em/1.1 sans-serif;
+  color: #fef;
+  margin: 1em; }
+#about-me img {
+    width: 2em;
+    vertical-align: middle; }
