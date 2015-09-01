@@ -6,10 +6,15 @@
   display: inline-block;
   max-height: 300px; }
 
+.right {
+  text-align: right;
+}
+
 .big {
     font: 10em/1.1 sans-serif;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    font-weight: 400; }
 
 .medium {
     font: 6em/1.1 sans-serif;
@@ -17,7 +22,7 @@
     padding: 0; }
 
 .bold {
-  font-weight: 800; }
+  font-weight: 900; }
 
 .gray {
   color: #777; }
@@ -29,7 +34,10 @@
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH"; }
-
+#hello {
+  color: #fff; }
+#hello h1 {
+  margin-left: 0.5em; }
 /*#hello ul {
   font-family: echouser;
   color: #222;
@@ -46,8 +54,30 @@
   color: #fef;
   margin: 1em; }
 #about-me img {
-    width: 2em;
+    width: 2.4em;
     vertical-align: middle; }
+
+.slide {
+    margin: 2em 5em; }
+#portfolio {
+  color: #fff; }
+#portfolio h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3.2em; }
+#portfolio h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em; }
+
+.panel {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-top: 3em; }
+.panel img {
+  width: 800px;
+  height: 180%; }
 
 ul {
   list-style-type: none; }
