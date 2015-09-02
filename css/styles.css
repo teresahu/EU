@@ -22,6 +22,10 @@
   font-weight: 900; }
 .light {
   font-weight: 400; }
+.smallcaps {
+  font: 1.4em/1.1 sans-serif;
+  font-weight: 800;
+  text-transform: uppercase; }
 
 .gray {
   color: #777; }
