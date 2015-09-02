@@ -1,8 +1,8 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* This mini-portfolio site was created by Teresa Hu, a web developer in Atlanta. It was designed with the guidance of Howard McQueen. */
+/* teresahu.com */
+/* howardmcqueen.com */
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+  Components: jQuery, fullPage.js, Font Awesome
+  Software: Atom, Git

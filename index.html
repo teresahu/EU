@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/fullPage.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <!-- <link rel="stylesheet" href="https://fontastic.s3.amazonaws.com/5Fb8yMisPmqwEhbtqy2375/icons.css" /> -->
     <link rel="icon" href="img/favicon.ico">
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -16,13 +17,13 @@
     <body>
       <div class="section" id="hello">
   					<h1 class="big"><span class="light">HELLO</span><br /><strong>ECHOUSER</strong><img src="img/echouser.png"></h1>
-            <!-- <ul>
-              <li><a href="https://github.com/teresahu/EU"><p class="i-github"></span></a></li>
-              <li><span class="i-linkedin"></span></li>
-              <li><span class="i-resume"></span></li>
-              <li><span class="i-instagram"></span></li>
-              <li><span class="i-soundcloud"></span></li>
-            </ul> -->
+            <ul>
+              <li><a href="https://github.com/teresahu/EU" class="fa fa-github fa-2x"></a></li>
+              <li><a href="https://linkedin.com/in/teresahu" class="fa fa-linkedin fa-2x"></a></li>
+              <li><a href="https://instagram.com/teresahu" class="fa fa-instagram fa-2x"></a></li>
+              <li><a href="http://teresahu.tumblr.com/" class="fa fa-tumblr fa-2x"></a></li>
+              <li><a href="resume.html" class="fa fa-file-text fa-2x"></a></li>
+            </ul>
       </div>
 
       <div class="section">
@@ -38,7 +39,6 @@
       </div>
 
       <div class="section" id="grid">
-
         <div class="square bg bestbuy">
          <div class="content">
               <div class="table">
@@ -230,6 +230,7 @@
       $(document).ready(function() {
         $('#fullpage').fullpage({
           sectionsColor: ['#2a8', '#434', '#fff', '#fff', '#cefcfc'],
+          // afterRender: function(){},
         });
       });
       </script>

@@ -14,54 +14,46 @@
     font: 10em/1.1 sans-serif;
     margin: 0;
     padding: 0; }
-
 .medium {
     font: 6em/1.1 sans-serif;
     margin: 0;
     padding: 0; }
-
 .bold, strong {
   font-weight: 900; }
-
 .light {
   font-weight: 400; }
 
 .gray {
   color: #777; }
-
 .green {
   color: #40d7d7; }
+.purple {
+  color: #b7b; }
 
-.flip{
-        -moz-transform: scaleX(-1);
+.flip{  -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH"; }
-#hello {
-  color: #fff; }
+
 #hello h1 {
-  margin-left: 0.5em; }
+  margin-left: 0.5em;
+  color: #fff; }
 #hello img {
   max-height: 1.4em;
-  vertical-align: middle;
-}
-/*#hello ul {
-  font-family: echouser;
-  color: #222;
-  font-size: 3em;
+  vertical-align: middle; }
+#hello ul {
+  position: absolute;
+  right: 1em;
+  top: 33%;
   list-style-type: none;
-  margin: 0;
-  padding: 0; }
-#hello li {
-  padding: 0.2em;
-  display: inline-block; }*/
-.fp-section {
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  font-family: 'FontAwesome';
+  float: right; }
+#hello a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0.15em;
 }
 
 #about-me p {
@@ -69,36 +61,23 @@
   color: #fef;
   padding: 1em;
   margin: 0.5em;
-  vertical-align: middle;
-  display: inline-block;}
+  display: inline-block; }
 #about-me img {
     height: 2.4em;
     vertical-align: middle; }
 
-.purple {
-  color: #b7b;
-}
-
 #grid .fp-tableCell:hover > div {
-  opacity: 0.5;
-}
-
+  opacity: 0.5; }
 #grid .fp-tableCell:hover > div:hover {
-  opacity: 1.0;
-}
+  opacity: 1.0; }
 
-.slide {
-    margin: 1em 5em; }
-#portfolio {
-  color: #222; }
+#portfolio h1, h2 {
+    margin: 0;
+    padding: 0; }
 #portfolio h1 {
-  margin: 0;
-  padding: 0;
   font-size: 4.2em;
   color: #138aab; }
 #portfolio h2 {
-  margin: 0;
-  padding: 0;
   font-size: 2.8em;
   color: #54b1cc; }
 
@@ -106,22 +85,17 @@
   display: inline-block;
   float: none;
   vertical-align: top;
-  margin: 1em 0.5em; }
+  margin: 0.5em; }
 .panel img {
   width: 760px;
   border: 1px solid #bbb; }
 .panel p {
   font: 1.2em/1.1 sans-serif;
   color: #222;
-  line-height: 1.6em;
-}
+  line-height: 1.6em; }
 
 #end {
-  color: #689;
-}
-
-ul {
-  list-style-type: none; }
+  color: #689; }
 
 /* RESPONSIVE IMAGE GRID */
 .square {
