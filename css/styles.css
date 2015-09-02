@@ -71,28 +71,34 @@
 #grid .fp-tableCell:hover > div:hover {
   opacity: 1.0; }
 
-#portfolio h1, h2 {
-    margin: 0;
-    padding: 0; }
 #portfolio h1 {
   font-size: 4.2em;
-  color: #138aab; }
+  color: #138aab;
+  margin: 0 0 0 1em;
+  padding: 0; }
 #portfolio h2 {
   font-size: 2.8em;
-  color: #54b1cc; }
+  color: #54b1cc;
+  margin: 0 0 0.5em 1.5em;
+  padding: 0; }
+#portfolio ul, ol {
+  list-style-type: none; }
+#portfolio li:before {
+    content: "• ";
+    color: #138aab; }
 
 .panel {
   display: inline-block;
   float: none;
   vertical-align: top;
+  font: 1.2em/1.1 sans-serif;
+  color: #222;
+  line-height: 1.6em;
   margin: 0.5em; }
 .panel img {
   width: 760px;
-  border: 1px solid #bbb; }
-.panel p {
-  font: 1.2em/1.1 sans-serif;
-  color: #222;
-  line-height: 1.6em; }
+  border: 1px solid #bbb;
+  margin-left: 3em; }
 
 #end {
   color: #689; }
