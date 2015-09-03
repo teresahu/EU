@@ -6,10 +6,8 @@
   display: inline-block;
   max-height: 300px; }
 
-.right {
-  text-align: right;
-}
-
+h1 {
+  font-size: 4.2em; }
 .big {
     font: 10em/1.1 sans-serif;
     margin: 0;
@@ -65,9 +63,10 @@
   color: #fef;
   padding: 1em;
   margin: 0.5em;
-  display: inline-block; }
+  display: inline-block;
+  line-height: 1.1; }
 #about-me img {
-    height: 2.4em;
+    height: 1.8em;
     vertical-align: middle; }
 
 #grid .fp-tableCell:hover > div {
@@ -78,7 +77,7 @@
 #portfolio h1 {
   font-size: 4.2em;
   color: #138aab;
-  margin: 0 0 0 1em;
+  margin: 1em 0 0 1em;
   padding: 0; }
 #portfolio h2 {
   font-size: 2.8em;
@@ -90,31 +89,51 @@
 #portfolio li:before {
     content: "• ";
     color: #138aab; }
-
+#portfolio img {
+  border: 1px solid #bbb; }
 .panel {
   display: inline-block;
-  float: none;
+  float: left;
   vertical-align: top;
   font: 1.2em/1.1 sans-serif;
   color: #222;
-  line-height: 1.6em;
-  margin: 0.5em; }
-.panel img {
-  width: 760px;
-  border: 1px solid #bbb;
-  margin-left: 3em; }
+  line-height: 1.6em; }
+
+#process p {
+  font: 3.4em/1.1 sans-serif;
+  color: #fff;
+  padding: 1em;
+  margin: 0.5em;
+  display: inline-block; }
+#process .fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #fff; }
+#process .fp-controlArrow.fp-prev {
+  border-color: transparent #fff transparent; }
 
 #end {
   color: #689; }
 
 /* RESPONSIVE IMAGE GRID */
+.rectangle {
+  float: left;
+  position: relative;
+  width: 62%;
+  padding: 0 0 55% 0;
+  margin: 0 0 0 4em;
+  overflow: hidden; }
+#portfolio .content {
+    position: absolute;
+    height: 68%; /* = 100% - 2*10% padding */
+    width: 100%; /* = 100% - 2*5% padding */
+    padding: 0;
+    text-align: center; }
 .square {
     float: left;
     position: relative;
     width: 20%;
     padding-bottom: 20%; /* = width for a 1:1 aspect ratio */
     margin: 0;
-    overflow:hidden; }
+    overflow: hidden; }
 .content {
     position: absolute;
     height: 80%; /* = 100% - 2*10% padding */
