@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/fullPage.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300|Lato:400,900,700' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="https://fontastic.s3.amazonaws.com/5Fb8yMisPmqwEhbtqy2375/icons.css" /> -->
     <link rel="icon" href="img/favicon.ico">
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -16,7 +17,7 @@
   <div id="fullpage">
     <body>
       <div class="section" id="hello">
-  					<h1 class="big"><span class="light">HELLO</span><br /><strong>ECHOUSER</strong><img src="img/echouser.png"></h1>
+  					<h1 class="big"><span class="light">HELLO</span><br /><strong>ECHOUSER</strong><img data-src="img/echouser.png"></h1>
             <ul>
               <li><a href="https://github.com/teresahu/EU" class="fa fa-github fa-2x"></a></li>
               <li><a href="https://linkedin.com/in/teresahu" class="fa fa-linkedin fa-2x"></a></li>
@@ -28,12 +29,12 @@
 
       <div class="section">
   				<div id="about-me">
-              <p><span class="smallcaps">Who is Teresa Hu?</span><br /><br />
+              <p><span class="caps">Who is Teresa Hu?</span><br /><br />
               I'd like to walk you through my story <br />
               & show you who I really am. <br /><br />
               <span class="purple bold">I'm more than my resume -</span><br />
               I'm a go-getter, a bilingual Buddhist,<br />a problem solver, music-lover,<br/ >
-              & the caretaker of this lil nugget <img src="img/huhudog.png">
+              & the caretaker of this lil' nugget <img src="img/huhudog.png">
             </p>
           </div>
       </div>
@@ -191,7 +192,7 @@
             <h1>Hackanooga</h1>
             <h2 class="light">City Budget Transparency</h2>
             <div class="rectangle">
-              <img class="content" src="img/CHAnge.png">
+              <img class="content" data-src="img/CHAnge.png">
             </div>
             <div class="panel">
               <ol>
@@ -206,7 +207,7 @@
           <h1>Ericsson</h1>
           <h2 class="light">Media Delivery Management System</h2>
           <div class="rectangle">
-            <img class="content" src="img/ericsson.gif">
+            <img class="content" data-src="img/ericsson.gif">
           </div>
           <div class="panel">
             <ol>
@@ -225,7 +226,7 @@
           <h1>Microsoft - Remote Desktop</h1>
           <h2 class="light">Windows Phone App</h2>
           <div class="rectangle">
-            <img class="content" src="img/microsoft.gif">
+            <img class="content" data-src="img/microsoft.gif">
           </div>
           <div class="panel">
             <ol>
@@ -263,29 +264,60 @@
 
       <div class="section" id="process">
         <div class="slide">
-          <p>
-            I love working with designers! You are experts at organizing information in a way that cultivates a story.<br /><br />
-            I'm passionate about building technology because it's flexible, accessible, and enables me to be creative & innovative.
+          <p class="light">
+            The best technologies are created by designers<br />& developers who collaborate to craft a clear, <br />captivating experience for the end user.<br /><br /> Designers are experts at organizing information<br /> in a way that cultivates a story. <br /><br />
+            For me, there is nothing more gratifying than to<br />bring that story to life with code.
           </p>
         </div>
         <div class="slide">
           <h1>1. Understand the goals</h1>
+          <ul>
+            <li>What does the client truly want?</li>
+            <li>Who is the end user?</li>
+            <li>What problem will this solve?</li>
+          </ul>
         </div>
         <div class="slide">
-          <h1>Brainstorm
+          <h1>2. Brainstorm & conceptualize</h1>
+          <ul>
+            <li>Whiteboard <em>every</em> idea</li>
+            <li>Get everyone involved</li>
+          </ul>
+        </div>
+        <div class="slide">
+          <h1>3. Sketch out mockups<br />&emsp; &emsp; & application flow</h1>
+        </div>
+        <div class="slide">
+          <h1>4. Look at the big picture</h1>
+          <ul>
+            <li>Do the mockups align with our goals?</li>
+            <li>What technologies & tools will we use?</li>
+            <li>What are the bare necessities?</li>
+            <li>What are the dream features?</li>
+            <li>How much time will it take?</li>
+          </ul>
+        </div>
+        <div class="slide">
+          <h1>5. Prototype iteratively</h1>
+        </div>
+        <div class="slide">
+          <h1>6. Polish & satisfy the client</h1>
         </div>
       </div>
 
 
-      <div class="section" id="end">
-  					<h2 class="medium light">I'M READY<br/>TO</h2>
-            <img class="flip" src="img/chase.png">
-            <h1 class="big bold green">THE BOLD</h1>
+      <div class="section">
+        <div id="end">
+  					<h2 class="light">I'M READY TO..</h2>
+            <img class="flip" data-src="img/chasepup.gif">
+            <h1 class="green">THE BOLD</h1>
       </div>
+    </div>
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          sectionsColor: ['#2a8', '#434', '#fff', '#fff', '#e66124', '#cefcfc'],
+          sectionsColor: ['#2a8', '#434', '#333', '#fff', '#e66124', '#fff'],
+          // #cefcfc
           // afterRender: function(){},
         });
       });
