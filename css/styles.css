@@ -21,7 +21,8 @@ h1 {
 .gray {
   color: #777; }
 .purple {
-  color: #b7b; }
+  color: #b7b;
+  font-style: italic; }
 
 .flip{  -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -105,7 +106,7 @@ h1 {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   /*font-size: 4.2em;*/
-  color: #f2f0d0;
+  color: #ffcc84;
   margin: 1em 0 0 1.5em;
   padding: 0; }
 #process ul {
@@ -145,9 +146,10 @@ h1 {
   display: inline;
   margin: 1em 0 0 0.2em;
   font-family: 'Lato', sans-serif;
-  font: 12em/1.8 sans-serif;
+  font: 11em/1.8 sans-serif;
   font-weight: 900;
-  color: #08b49d; }
+  color: #08b49d;
+  letter-spacing: -8px; }
 
 /* RESPONSIVE IMAGE GRID */
 .rectangle {
@@ -195,8 +197,8 @@ h1 {
     background-image: url('../img/grid/studyabroad.jpg'); }
 .recordsetter {
     background-image: url('../img/grid/book.png'); }
-.costarica {
-    background-image: url('../img/grid/costarica.jpg'); }
+.ga {
+    background-image: url('../img/grid/ga.jpg'); }
 .edc {
     background-image: url('../img/grid/aoki.jpg'); }
 .cisco {
